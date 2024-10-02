@@ -17,7 +17,7 @@ spec:
       - name: brainwave-container
         image: mouhanedakermi/react-app:1.0.0-16
         ports:
-        - containerPort: 3000
+        - containerPort: 5173
         env:
         - name: NODE_ENV
           value: "development"
